@@ -18,7 +18,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.rstudio.core.client.*;
+import org.rstudio.core.client.ClassIds;
+import org.rstudio.core.client.ColorUtil;
+import org.rstudio.core.client.CommandWithArg;
+import org.rstudio.core.client.Size;
+import org.rstudio.core.client.StringUtil;
 import org.rstudio.core.client.dom.DomUtils;
 import org.rstudio.core.client.widget.ProgressSpinner;
 import org.rstudio.studio.client.RStudioGinjector;
